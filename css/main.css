@@ -43,18 +43,37 @@ main{
     height: 100%;
     display: grid;
     background-color: rebeccapurple;
-    text-align: center;
+    text-align: center
+    
 }
 main img{
-    width: 400px;
-    height: 550px;
+    width: 300px;
+    height: 450px;
 }
 
+span{
+    font-weight: bold;
+    color: #fff;
+}
 
 
 
 
 /* Esilos personales o de class */
+.h3-home{
+    color:yellow;
+}
+
+
+.div-home{
+    text-align: center;
+    
+}
+.img-home{
+    text-align: center;
+    width: 300px;
+    height: 450px;
+}
 .gap-main{
     gap: 40px;
     flex-wrap:wrap;
@@ -63,23 +82,85 @@ main img{
     border: 2px solid #bebab6;
     margin-top: 10px;
 }
-.boton{
-    margin-left: 920px;
-    width: 100px;
-    height: 30px;
-    background-color: #535252;
-    border-radius: .5em;
-    cursor: pointer;
-    text-align: center;
-    font-weight: bold;
+.precio{
+    color: yellow;
+}
+
+/* -----------Estilos del contactanos---------------- */
+.form{
+    font-family:sans-serif;
+    width: 50%;
+    min-width: 280px;
+    background:rgba(0, 0, 0, 0.491);
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    color: #535252;
+}
+
+.form-input{
+    width: 100%;
+    height: 45px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #242323;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.form-text{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #242323;
     color: #fff;
 }
 
-.boton:hover{
-    background-color:#fff;
-    color: black;
+.form-text::placeholder{
+    font-size: 1.4rem;
+}
+.h1-contacto{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 10px;
+    font-weight: 500;
 }
 
+.form-lable{
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 300;
+
+}
+.enviar{
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    outline: none;
+    border: none;
+    background: #535252;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 20px 0 2px 0;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.enviar:hover{
+    background: #53525257;
+}
+.logo-c{
+    width: 50px;
+    height: 50px;
+  
+}
+
+/* ----------Fin de estilos contactos */
 
 /*---------- Fin del Main ---------*/
 footer{
