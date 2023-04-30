@@ -1,174 +1,207 @@
 /*reset*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* Estilos genrales */
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-
 
 /* Estilos del Header*/
-header{
-    
-    background-color: #535252;
-    font-weight: 700;
-    font-size: large;
-    
-    
+header {
+  background-color: #535252;
+  font-weight: 700;
+  font-size: large;
 }
 
-header nav div a img{
-    width: 150px;
-    height: 150px;
-    margin-left: 5px;
-    
+header nav div a img {
+  width: 150px;
+  height: 150px;
+  margin-left: 5px;
 }
-header nav div span img{
-    height: 150px;
-    width: 150px;
-    
+header nav div span img {
+  height: 150px;
+  width: 150px;
 }
-header nav div button{
-    margin-right: 5px;
+header nav div button {
+  margin-right: 5px;
 }
 /*---------- Fin del Header----------*/
 
-
-/* Estilos del Main*/ 
-main{
-    width: 100%;
-    height: 100%;
-    display: grid;
-    background-color: rebeccapurple;
-    text-align: center
-    
+/* Estilos del Main*/
+main {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  background-color: rebeccapurple;
+  text-align: center;
 }
-main img{
-    width: 300px;
-    height: 450px;
+main img {
+  width: 300px;
+  height: 450px;
 }
 
-span{
-    font-weight: bold;
-    color: #fff;
+span {
+  font-weight: bold;
+  color: #fff;
 }
-
-
-
 
 /* Esilos personales o de class */
-.h3-home{
-    color:yellow;
+.h3-home {
+  color: yellow;
 }
 
-
-.div-home{
-    text-align: center;
-    
+.home-h4 {
+  margin-top: 23px;
+  color: yellow;
 }
-.img-home{
-    text-align: center;
-    width: 300px;
-    height: 450px;
+.div-home {
+  text-align: center;
 }
-.gap-main{
-    gap: 40px;
-    flex-wrap:wrap;
+.img-home {
+  text-align: center;
+  width: 300px;
+  height: 450px;
 }
-.img-p{
-    border: 2px solid #bebab6;
-    margin-top: 10px;
+.gap-main {
+  gap: 40px;
+  flex-wrap: wrap;
 }
-.precio{
-    color: yellow;
+.img-p {
+  border: 2px solid #bebab6;
+  margin-top: 10px;
 }
-
+.precio {
+  color: yellow;
+}
+.sobnos {
+  font-weight: 700;
+  font-size: 18px;
+  color: #bebab6;
+}
 /* -----------Estilos del contactanos---------------- */
-.form{
-    font-family:sans-serif;
-    width: 50%;
-    min-width: 280px;
-    background:rgba(0, 0, 0, 0.491);
-    margin: auto;
-    margin-top: 50px;
-    padding: 20px;
-    color: #535252;
+.form {
+  font-family: sans-serif;
+  width: 60%;
+  min-width: 295px;
+  background: rgba(0, 0, 0, 0.491);
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  color: #535252;
 }
 
-.form-input{
-    width: 100%;
-    height: 45px;
-    background: rgba(0, 0, 0, 0.7);
-    padding: 10px;
-    outline: none;
-    border: none;
-    border-bottom: 2px solid #242323;
-    font-size: 1.4rem;
-    margin-bottom: 15px;
-    color: #fff;
+.form-input {
+  width: 100%;
+  height: 45px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #242323;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #fff;
 }
-.form-text{
-    width: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    padding: 10px;
-    outline: none;
-    border: none;
-    border-bottom: 2px solid #242323;
-    color: #fff;
-}
-
-.form-text::placeholder{
-    font-size: 1.4rem;
-}
-.h1-contacto{
-    text-align: center;
-    color: #fff;
-    padding-bottom: 10px;
-    font-weight: 500;
+.form-text {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #242323;
+  color: #fff;
 }
 
-.form-lable{
-    display: block;
-    font-size: 1.4rem;
-    font-weight: 300;
+.form-text::placeholder {
+  font-size: 1.4rem;
+}
+.h1-contacto {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
 
+.form-lable {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 300;
 }
-.enviar{
-    width: 100%;
-    height: 50px;
-    background: rgba(0, 0, 0, 0.7);
-    padding: 10px;
-    outline: none;
-    border: none;
-    background: #535252;
-    color: #fff;
-    text-align: center;
-    font-size: 1.6rem;
-    margin: 20px 0 2px 0;
-    cursor: pointer;
-    transition: all .5s ease;
+.enviar {
+  width: 100%;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  outline: none;
+  border: none;
+  background: #535252;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  margin: 20px 0 2px 0;
+  cursor: pointer;
+  transition: all 0.5s ease;
 }
-.enviar:hover{
-    background: #53525257;
-}
-.logo-c{
-    width: 50px;
-    height: 50px;
+.enviar:hover {
+  background: #3636bb57;
   
+}
+.logo-c {
+  width: 50px;
+  height: 50px;
 }
 
 /* ----------Fin de estilos contactos */
 
 /*---------- Fin del Main ---------*/
-footer{
-    background-color: #242323;
-    text-align: center;
-    height: 108px;
-    font-size: 28px;
-    color: #fff;
-    
 
+/* -------------Inicio de estilos del footer-------------- */
+
+footer {
+  background-color: #242323;
+  text-align: center;
+  height: 108px;
+  font-size: 28px;
+  color: #fff;
+}
+/* -------------Fin de footer-------------- */
+
+/* ------------Media querys--------- */
+
+@media screen and (min-width: 320px) and (max-width: 450px) {
+    .form {
+        width: 60%;
+        min-width: 295px;
+
+    }
+  .sobnos {
+    display: none;
+  }
+  .drops-sb {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 451px) and (max-width: 765px) {
+    .form {
+        width: 60%;
+        min-width: 400px;
+    }
+
+  .sobnos {
+    display: none;
+  }
+  .drops-sb {
+    display: none;
+  }
+}
+@media screen and (min-width: 766px ){
+    .form {
+        width: 80%;
+        min-width: 500px;
+        max-width: 800px;
+    }
 }
