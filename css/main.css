@@ -1,87 +1,65 @@
-/*reset*/
+/* reset*/
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-/* Estilos genrales */
-a {
-  text-decoration: none;
-}
+  box-sizing: border-box; }
 
-/* Estilos del Header*/
+a {
+  text-decoration: none; }
+
+/*---------estilos de header--------*/
 header {
   background-color: #535252;
   font-weight: 700;
-  font-size: large;
-}
+  font-size: large; }
+  header nav div a img {
+    width: 150px;
+    height: 150px;
+    margin-left: 5px; }
+  header nav div span img {
+    height: 150px;
+    width: 150px; }
+  header nav div button {
+    margin-right: 5px; }
 
-header nav div a img {
-  width: 150px;
-  height: 150px;
-  margin-left: 5px;
-}
-header nav div span img {
-  height: 150px;
-  width: 150px;
-}
-header nav div button {
-  margin-right: 5px;
-}
-/*---------- Fin del Header----------*/
-
-/* Estilos del Main*/
+/*------------estilos del main---------------*/
 main {
   width: 100%;
   height: 100%;
   display: grid;
-  background-color: rebeccapurple;
+  background-color: #663399;
   text-align: center;
-}
-main img {
-  width: 300px;
-  height: 450px;
-}
+  /* estilos de clases*/ }
+  main img {
+    width: 300px;
+    height: 450px; }
+  main span {
+    font-weight: bold;
+    color: #fff; }
+  main .h3-home {
+    color: yellow; }
+  main .home-h4 {
+    margin-top: 23px;
+    color: yellow; }
+  main .div-home {
+    text-align: center;
+    width: 300px;
+    height: 450px; }
+  main .gap-main {
+    gap: 40px;
+    flex-wrap: wrap; }
+  main .img-p {
+    border: 2px solid #bebab6; }
+  main .precio {
+    color: yellow; }
+  main .sobnos {
+    font-weight: 700;
+    font-size: 18px;
+    color: #bebab6; }
+  main .img-home {
+    text-align: center; }
 
-span {
-  font-weight: bold;
-  color: #fff;
-}
-
-/* Esilos personales o de class */
-.h3-home {
-  color: yellow;
-}
-
-.home-h4 {
-  margin-top: 23px;
-  color: yellow;
-}
-.div-home {
-  text-align: center;
-}
-.img-home {
-  text-align: center;
-  width: 300px;
-  height: 450px;
-}
-.gap-main {
-  gap: 40px;
-  flex-wrap: wrap;
-}
-.img-p {
-  border: 2px solid #bebab6;
-  margin-top: 10px;
-}
-.precio {
-  color: yellow;
-}
-.sobnos {
-  font-weight: 700;
-  font-size: 18px;
-  color: #bebab6;
-}
-/* -----------Estilos del contactanos---------------- */
+/* estilos de formulario y contactos*/
 .form {
   font-family: sans-serif;
   width: 60%;
@@ -90,8 +68,7 @@ span {
   margin: auto;
   margin-top: 50px;
   padding: 20px;
-  color: #535252;
-}
+  color: #535252; }
 
 .form-input {
   width: 100%;
@@ -103,8 +80,8 @@ span {
   border-bottom: 2px solid #242323;
   font-size: 1.4rem;
   margin-bottom: 15px;
-  color: #fff;
-}
+  color: #fff; }
+
 .form-text {
   width: 100%;
   background: rgba(0, 0, 0, 0.7);
@@ -112,24 +89,22 @@ span {
   outline: none;
   border: none;
   border-bottom: 2px solid #242323;
-  color: #fff;
-}
+  color: #fff; }
 
 .form-text::placeholder {
-  font-size: 1.4rem;
-}
+  font-size: 1.4rem; }
+
 .h1-contacto {
   text-align: center;
   color: #fff;
   padding-bottom: 10px;
-  font-weight: 500;
-}
+  font-weight: 500; }
 
 .form-lable {
   display: block;
   font-size: 1.4rem;
-  font-weight: 300;
-}
+  font-weight: 300; }
+
 .enviar {
   width: 100%;
   height: 50px;
@@ -143,65 +118,44 @@ span {
   font-size: 1.6rem;
   margin: 20px 0 2px 0;
   cursor: pointer;
-  transition: all 0.5s ease;
-}
+  transition: all 0.5s ease; }
+
 .enviar:hover {
-  background: #3636bb57;
-  
-}
+  background: #3636bb57; }
+
 .logo-c {
   width: 50px;
-  height: 50px;
-}
+  height: 50px; }
 
-/* ----------Fin de estilos contactos */
-
-/*---------- Fin del Main ---------*/
-
-/* -------------Inicio de estilos del footer-------------- */
-
+/* ----------estilos de footer*---------*/
 footer {
   background-color: #242323;
   text-align: center;
   height: 108px;
   font-size: 28px;
-  color: #fff;
-}
-/* -------------Fin de footer-------------- */
+  color: #fff; }
 
-/* ------------Media querys--------- */
-
+/*----------------Media Query------------*/
 @media screen and (min-width: 320px) and (max-width: 450px) {
-    .form {
-        width: 60%;
-        min-width: 295px;
-
-    }
+  .form {
+    width: 60%;
+    min-width: 295px; }
   .sobnos {
-    display: none;
-  }
+    display: none; }
   .drops-sb {
-    display: none;
-  }
-}
+    display: none; } }
 
 @media screen and (min-width: 451px) and (max-width: 765px) {
-    .form {
-        width: 60%;
-        min-width: 400px;
-    }
-
+  .form {
+    width: 60%;
+    min-width: 400px; }
   .sobnos {
-    display: none;
-  }
+    display: none; }
   .drops-sb {
-    display: none;
-  }
-}
-@media screen and (min-width: 766px ){
-    .form {
-        width: 80%;
-        min-width: 500px;
-        max-width: 800px;
-    }
-}
+    display: none; } }
+
+@media screen and (min-width: 766px) {
+  .form {
+    width: 80%;
+    min-width: 500px;
+    max-width: 800px; } }

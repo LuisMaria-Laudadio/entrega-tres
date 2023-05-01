@@ -1,0 +1,72 @@
+//variables
+@import"../utilidades/vars";
+/* estilos de formulario y contactos*/
+.form {
+  font-family: sans-serif;
+  width: 60%;
+  min-width: 295px;
+  background: rgba(0, 0, 0, 0.491);
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  color: $color-gris;
+}
+.form-input {
+  width: 100%;
+  height: 45px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #242323;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: $color-texto;
+}
+.form-text {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #242323;
+  color: $color-texto;
+}
+.form-text::placeholder {
+  font-size: 1.4rem;
+}
+.h1-contacto {
+  text-align: center;
+  color: $color-texto;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.form-lable {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+.enviar {
+  width: 100%;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  outline: none;
+  border: none;
+  background: $color-gris;
+  color: $color-texto;
+  text-align: center;
+  font-size: 1.6rem;
+  margin: 20px 0 2px 0;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.enviar:hover {
+  background: $color-boton-hover;
+  
+}
+.logo-c {
+  width: 50px;
+  height: 50px;
+}

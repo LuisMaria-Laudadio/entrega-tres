@@ -1,0 +1,41 @@
+//variables
+@import "../utilidades/vars";
+/*---------estilos de header--------*/
+header {
+    background-color: $color-gris;
+    font-weight: 700;
+    font-size: large;
+    nav{
+        div{
+            a{
+                img{
+                    width: 150px;
+                    height: 150px;
+                    margin-left: 5px;
+                    
+
+                    
+                }
+            }
+        }
+    }
+nav{
+    div{
+        span{
+            img{
+                height: 150px;
+                width: 150px;
+            }
+        }
+    }
+}
+
+nav{
+    div{
+        button{
+            margin-right: 5px;
+        }
+    }
+}
+
+}

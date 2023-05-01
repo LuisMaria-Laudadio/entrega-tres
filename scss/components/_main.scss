@@ -1,0 +1,51 @@
+//variables
+@import "../utilidades/vars";
+/*------------estilos del main---------------*/
+main{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    background-color:$color-fondo;
+    text-align: center;
+    img{
+        width: 300px;
+        height: 450px;
+    }
+    span{
+        font-weight: bold;
+        color: #fff;
+    }
+    /* estilos de clases*/
+    .h3-home{
+        color: yellow;
+    }
+    .home-h4{
+        margin-top: 23px;
+        color: yellow;
+    }
+    .div-home{
+        text-align: center;
+        width: 300px;
+        height: 450px;
+    }
+    .gap-main{
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+    .img-p{
+        border:2px solid $color-2;
+    }
+    .precio{
+        color: yellow;
+    }
+    .sobnos{
+        font-weight: 700;
+        font-size: 18px;
+        color: $color-2;
+    }
+    .img-home{
+        text-align: center;
+        
+    }
+
+}
